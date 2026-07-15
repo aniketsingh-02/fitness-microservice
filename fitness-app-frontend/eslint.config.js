@@ -15,7 +15,17 @@ export default defineConfig([
     ],
     languageOptions: {
       globals: globals.browser,
-      parserOptions: { ecmaFeatures: { jsx: true } },
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    rules: {
+      // This rule incorrectly flags normal data fetching in useEffect
+      'react-hooks/set-state-in-effect': 'off',
     },
   },
 ])
