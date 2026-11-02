@@ -1,62 +1,55 @@
-\# 🏋️ Fitness Microservice Application
+🏋️ Fitness Microservice Application
 
 
 
 A full-stack AI-powered fitness tracking application built with Spring Boot Microservices and React.
+ 🏗️ Architecture
 
 
 
-\## 🏗️ Architecture
+Architecture(https://via.placeholder.com/800x400?text=Microservices+Architecture)🚀 Tech Stack
 
 
 
-!\[Architecture](https://via.placeholder.com/800x400?text=Microservices+Architecture)
+ Backend
+
+Spring Boot- Microservices fram
+
+Spring Cloud Gateway\*\* - API Gateway
+
+Spring Security + Keycloak - OAuth2/PKCE Authentication
+
+Eureka - Service Discovery
+
+Spring Cloud Config- Centralized Configuration
+
+RabbitMQ - Message Queue
+
+MongoDB - Activity & Recommendation storage
+
+PostgreSQL - User data storage
+
+Google Gemini AI - AI-powered fitness recommendations
+
+Docker - Containerization
 
 
 
-\## 🚀 Tech Stack
+Frontend
+
+React- UI Framework
+
+Redux- State Management
+
+Material UI - Component Library
+
+Axios - HTTP Client
+
+Vite - Build Tool
 
 
 
-\### Backend
-
-\- \*\*Spring Boot\*\* - Microservices framework
-
-\- \*\*Spring Cloud Gateway\*\* - API Gateway
-
-\- \*\*Spring Security + Keycloak\*\* - OAuth2/PKCE Authentication
-
-\- \*\*Eureka\*\* - Service Discovery
-
-\- \*\*Spring Cloud Config\*\* - Centralized Configuration
-
-\- \*\*RabbitMQ\*\* - Message Queue
-
-\- \*\*MongoDB\*\* - Activity \& Recommendation storage
-
-\- \*\*PostgreSQL\*\* - User data storage
-
-\- \*\*Google Gemini AI\*\* - AI-powered fitness recommendations
-
-\- \*\*Docker\*\* - Containerization
-
-
-
-\### Frontend
-
-\- \*\*React\*\* - UI Framework
-
-\- \*\*Redux\*\* - State Management
-
-\- \*\*Material UI\*\* - Component Library
-
-\- \*\*Axios\*\* - HTTP Client
-
-\- \*\*Vite\*\* - Build Tool
-
-
-
-\## 📦 Microservices
+ 📦 Microservices
 
 
 
@@ -80,7 +73,7 @@ A full-stack AI-powered fitness tracking application built with Spring Boot Micr
 
 
 
-\## 🔄 Application Flow
+ 🔄 Application Flow
 
 User Login (Keycloak OAuth2)
 
@@ -104,11 +97,11 @@ AI Service (Gemini AI Analysis)
 
 Recommendations saved to MongoDB
 
-## ⚙️ Setup
+⚙️ Setup
 
 
 
-\### Prerequisites
+ Prerequisites
 
 \- Java 21
 
